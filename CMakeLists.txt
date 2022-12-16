@@ -3,4 +3,4 @@ project(blackjack C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(blackjack main.c)
+add_executable(blackjack main.c blackjack_lib.c blackjack_lib.h)
